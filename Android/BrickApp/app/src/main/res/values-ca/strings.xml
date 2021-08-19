@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BrickApp</string>
+    <string name="btn_search">Buscar</string>
+    <string name="btn_register">Registrar</string>
+    <string name="btn_setup">Opcions i Configuració</string>
+    <string name="lbl_settings">Ajustaments</string>
+    <string name="chk_filter_by_year">Filtrar per anys</string>
+    <string name="lbl_from_year">Des del</string>
+    <string name="lbl_to_year">Fins al</string>
+    <string name="chk_filter_by_parts">Filtrar per peces</string>
+    <string name="lbl_minimum_parts">Mínim</string>
+    <string name="lbl_maximum_parts">Màxim</string>
+    <string name="lbl_enter_api_key_explanation">Si us plau introdueix la teva clau API. Aquesta API key la pots obtenir registrant-te a rebrickable.com i accedint a Account > Settings > API i executar Generate new API key si no ho havies fet abans. Aleshores copia i enganxa-la aquí al quadre d\'entrada i comprova-la contra el servidor.</string>
+    <string name="hint_enter_api_key">Introdueix la teva API key</string>
+    <string name="btn_check_api_key">Comprovar la clau API</string>
+    <string name="hint_cannot_be_empty">La clau API no pot ser una cadena buida</string>
+    <string name="hint_bad_format">La clau API ha de ser una cadena de 32 caràcters (0-9 i a-f)</string>
+    <string name="btn_change_api_key">Cambiar</string>
+    <string name="btn_remove_api_key">Eliminar</string>
+    <string name="lbl_your_api_key">La teva clau API</string>
+    <string name="lbl_no_api_key">Sense API key</string>
+    <string name="lbl_remove_api_key_alert_message">Estàs a punt d\'eliminar la clau API que vas introduir.\nL\'aplicació es reiniciarà completament i eliminarà els teus ajustaments.\nAleshores hauràs de tornar a indicar una clau API per poder usar l\'aplicació.</string>
+    <string name="lbl_remove_api_key_alert_title">Eliminant la clau API</string>
+    <string name="lbl_step_initializing">Iniciant</string>
+    <string name="lbl_step_checking_api_key">Comprovant la clau API</string>
+    <string name="lbl_enter_api_key_title">Editant la clau API</string>
+    <string name="lbl_theme_selector">Filtre de tema</string>
+    <string name="lbl_step_downloading_themes">Descarregant temes...</string>
+    <string name="no_theme_selected">No s\'ha triat cap tema</string>
+    <plurals name="found_normal">
+        <item quantity="zero">No s\'han trobat caixes.</item>
+        <item quantity="one">Mostrant la única caixa trobada.</item>
+        <item quantity="other">Mostrant %d caixes...</item>
+    </plurals>
+    <string name="found_overflow">Mostrant les primeres %d caixes d\'un total de %d...</string>
+
+</resources>
